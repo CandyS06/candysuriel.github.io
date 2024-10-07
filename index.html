@@ -1,1 +1,168 @@
-Hello World!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            background: #f0f4f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        nav {
+            margin: 10px 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 60px 20px;
+        }
+
+        h2 {
+            color: #4CAF50;
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .about, .skills, .education, .interests, .work, .contact {
+            background: #fff;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+        }
+
+        .about p, .skills p, .education p, .interests p, .work p, .contact p {
+            font-size: 1.1rem;
+            color: #666;
+        }
+
+        .skills ul, .education ul, .interests ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .skills li, .education li, .interests li {
+            padding: 8px 0;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Your Name</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#interests">Interests</a>
+        <a href="#work">Work Experience</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about" class="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>Hello! I'm [Your Name], a passionate [Your Profession]. I enjoy building things, solving problems, and learning new skills along the way. Welcome to my personal website!</p>
+    </div>
+</section>
+
+<section id="skills" class="skills">
+    <div class="container">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming: HTML, CSS, JavaScript, Python</li>
+            <li>Web Development: Frontend, Backend</li>
+            <li>Mobile Development: iOS, Android</li>
+            <li>Other: Git, Agile Methodologies</li>
+        </ul>
+    </div>
+</section>
+
+<section id="education" class="education">
+    <div class="container">
+        <h2>Education</h2>
+        <ul>
+            <li>Bachelor's Degree in Computer Science - XYZ University</li>
+            <li>Master's Degree in Software Engineering - ABC Institute</li>
+        </ul>
+    </div>
+</section>
+
+<section id="interests" class="interests">
+    <div class="container">
+        <h2>Interests</h2>
+        <ul>
+            <li>Exploring new technologies</li>
+            <li>Gaming and app development</li>
+            <li>Traveling and cultural experiences</li>
+            <li>Music and photography</li>
+        </ul>
+    </div>
+</section>
+
+<section id="work" class="work">
+    <div class="container">
+        <h2>Work Experience</h2>
+        <p>I have worked on several mobile and web development projects, including creating innovative solutions for clients. Currently, I am a developer at FC Studio, building mobile apps and games that make a difference.</p>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="container">
+        <h2>Contact</h2>
+        <p>Email: yourname@example.com</p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/yourname" target="_blank">linkedin.com/in/yourname</a></p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Your Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
