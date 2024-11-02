@@ -4,107 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Website</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
-        }
-
-        body {
-            line-height: 1.6;
-            background: #f0f4f8;
-            color: #333;
-        }
-
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-
-        header h1 {
-            font-size: 2.5rem;
-        }
-
-        nav {
-            margin: 10px 0;
-        }
-
-        nav a {
-            margin: 0 15px;
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        section {
-            padding: 60px 20px;
-        }
-
-        h2 {
-            color: #4CAF50;
-            font-size: 2rem;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        .about, .skills, .education, .interests, .work, .contact {
-            background: #fff;
-            margin-bottom: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            padding: 30px;
-        }
-
-        .about p, .skills p, .education p, .interests p, .work p, .contact p {
-            font-size: 1.1rem;
-            color: #666;
-        }
-
-        .skills ul, .education ul, .interests ul {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        .skills li, .education li, .interests li {
-            padding: 8px 0;
-        }
-
-        footer {
-            background-color: #4CAF50;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-<header>
-    <h1>Your Name</h1>
     <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#education">Education</a>
-        <a href="#interests">Interests</a>
-        <a href="#work">Work Experience</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</header>
+        <div class="nav-items">
+          <a href="/">ABOUT ME</a> 
+          <a href="/">PROFESSIONAL</a> 
+          <a href="/">MY INTERESTS</a>
+        </div>
+      </nav>
 
-<section id="about" class="about">
+      <header>
+        <div class="frame">
+            <div class="text-content">
+                <h1>Candy Suriel</h1>
+                <p class="quote">Living life to the fullest one step at a time</p>
+            </div>
+            <img src="images/landing.jpeg" alt="landing-page-pic" class="landing-page-pic"> <!-- Update the path to your photo -->
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <img src="images/about-me-1.jpeg" alt="about-me-1" class="about-me-1-pic">
+            <img src="images/about-me-2.jpeg" alt="about-me-2" class="about-me-2-pic">
+            <h2>About Me</h2>
+            <p>Hi, I’m Candy Suriel, an islander from the Dominican Republic now navigating life in the United States. </p>
+            <p>My journey into the world of travel began during a university exchange program in Brazil, where I embraced the challenge of living independently in a vast country and immersing myself in a language that was new to me (although it was super similar). </p>
+            <p>This experience ignited my passion for exploration and cultural exchange, teaching me resilience and adaptability.</p>
+        </div>
+    </section>
+
+    <section id="professional" class="professional">
+        <div class="container">
+            <div class="left">
+                <img src="images/professional.jpg" alt="professional" class="professional-pic">
+            </div>
+            <div class="right">
+                <h2>Professionally</h2>
+                <p>Industrial Engineer with a MSc in Manufacturing and Mechanical and a minor in Quality. </p>
+                <p>I’ve built a career in Quality and Regulatory within the medical device industry. </p>
+                <p>I have successfully implemented Quality Management Systems (QMS) that ensure compliance with industry standards and regulatory requirements. </p>
+                <p>My role has involved leading problem-solving initiatives aimed at identifying and addressing quality issues, ultimately enhancing product safety and efficacy.</p>
+                <p>I have also developed and managed processes to ensure adherence to applicable standards and regulations, including ISO 13485 and FDA regulations. This includes conducting audits, facilitating training, and promoting a culture of continuous improvement across teams.</p>
+            </div>
+        </div>
+        </section>
+
+<!-- <header>
+    <h1>Candy Suriel</h1>
+        <p>Living life to the fullest one step at a time</p>
+</header> -->
+
+<!-- <section id="about" class="about">
     <div class="container">
         <h2>About Me</h2>
         <p>Hello! I'm [Your Name], a passionate [Your Profession]. I enjoy building things, solving problems, and learning new skills along the way. Welcome to my personal website!</p>
@@ -158,11 +111,11 @@
         <p>Email: yourname@example.com</p>
         <p>LinkedIn: <a href="https://linkedin.com/in/yourname" target="_blank">linkedin.com/in/yourname</a></p>
     </div>
-</section>
+</section> -->
 
-<footer>
+<!-- <footer>
     <p>&copy; 2024 Your Name. All rights reserved.</p>
-</footer>
+</footer> -->
 
 </body>
 </html>
