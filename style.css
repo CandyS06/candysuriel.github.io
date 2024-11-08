@@ -9,6 +9,10 @@ html  {
   font-size: 20px;
 }
 
+a {
+  text-decoration: none;
+}
+
 @font-face {
   font-family: 'garbata'; 
   src: url('./fonts/garbata/GarbataTrial-Regular.ttf') format('truetype');
@@ -62,7 +66,7 @@ nav a:hover {
   flex: 1; /* Allow text to grow */
   padding-right: 1px; /* Space between text and image */
   padding-left: 20px;
-  
+
 }
 
 h1 {
@@ -76,6 +80,12 @@ h1 {
 
 .landing-page-pic {
   width: 350px; /* Set width of the picture */
+  height: auto; /* Maintain aspect ratio */
+  margin-left: 10px; /* Add space between the text and image */ 
+}
+
+.linkedin-logo, .facebook-logo, .instagram-logo {
+  width: 40px; /* Set width of the picture */
   height: auto; /* Maintain aspect ratio */
   margin-left: 10px; /* Add space between the text and image */ 
 }
@@ -107,17 +117,22 @@ h1 {
   margin-left: 550px;
 }
 
+.right p {
+  margin-bottom: 20px;
+}
+
 .professional-pic {
   width: 350px; /* Set width of the picture */
   height: auto; /* Maintain aspect ratio */
-  margin-left: 10px; /* Add space between the text and image */ 
+  margin-left: 100px; /* Add space between the text and image */ 
   border: 1px solid #000000;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a slight shadow */
+  
 }
 
 .professional {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   width: 100%;
 }
 
@@ -134,77 +149,28 @@ h1 {
   float: right;
 }
 
-/* header {
-  height: 100vh;
-  background-color: #e7dfd8;
-  color: white;
-  padding: 10px 0;
-  text-align: center;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-} */
-
-/* header h1 {
-  font-size: 2.5rem;
-} */
-
-/* nav {
-  margin: 10px 0;
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
 }
 
-nav a {
-  margin: 0 15px;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-} */
-
-
-
-
-/* section {
-  padding: 60px 20px;
+.button {
+  width: 30%;
+  height: 30px;
+  background-color:#985507;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
 }
 
-h2 {
-  color: #4CAF50;
-  font-size: 2rem;
-  text-align: center;
-  margin-bottom: 20px;
+.button:hover, .button2:hover {
+  background-color: #5e5343;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-} */
-
-/* .about, .skills, .education, .interests, .work, .contact {
-  background: #fff;
-  margin-bottom: 30px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 30px;
+.button a {
+  text-decoration: none;  
+  color: inherit;
 }
-
-.about p, .skills p, .education p, .interests p, .work p, .contact p {
-  font-size: 1.1rem;
-  color: #666;
-}
-
-.skills ul, .education ul, .interests ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.skills li, .education li, .interests li {
-  padding: 8px 0;
-}
-
-footer {
-  background-color: #4CAF50;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-} */
